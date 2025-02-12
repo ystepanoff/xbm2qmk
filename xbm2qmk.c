@@ -154,7 +154,7 @@ int main(int argc, char **argv) {
             printf(" ");
         }
     }
-    printf("\n};\n\n");
+    printf("};\n\n");
 
     free(page_packed_data);
 
