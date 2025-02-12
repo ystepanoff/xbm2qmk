@@ -136,7 +136,7 @@ int main(int argc, char **argv) {
     xbm_to_page_packed(page_packed_data, row_packed_data, width, height);
     free(row_packed_data);
 
-    printf("static const uint8_t %s_qmk_bits[] PROGMEM = {\n", name);
+    printf("const char PROGMEM %s_qmk[] = {\n", name);
 
     for (int i = 0; i < total_bytes; i++) {
         if ((i % 4) == 0) {
