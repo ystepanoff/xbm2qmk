@@ -44,10 +44,13 @@ bool oled_task_user(void) {
 
 Make sure that:
 - Your board is configured for an OLED display of the same width/height as your bitmap.
-- You have enabled OLED_DRIVER_ENABLE = yes in your rules.mk.
+- You have enabled `OLED_DRIVER_ENABLE = yes` in your `rules.mk`.
 
 ## Happy converting! 
 
 Have fun displaying crisp, custom images on your QMK-powered mechanical keyboards. 
 If you have any questions or suggestions, feel free to open an issue or create a PR!
 
+## Credits 
+
+The example XBM image was found in [this repo](https://github.com/tie/oneko/). 
