@@ -139,7 +139,7 @@ int main(int argc, char **argv) {
     printf("const char PROGMEM %s_qmk[] = {\n", name);
 
     for (int i = 0; i < total_bytes; i++) {
-        if ((i % 4) == 0) {
+        if ((i % 8) == 0) {
             printf("    ");
         }
         printf("0x%02X", page_packed_data[i]);
