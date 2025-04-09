@@ -148,7 +148,7 @@ int main(int argc, char **argv) {
         } else {
             printf(" ");
         }
-        if ((i % 4) == 3) {
+        if ((i % 8) == 7) {
             printf("\n");
         } else {
             printf(" ");
